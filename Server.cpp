@@ -12,7 +12,6 @@ int main(){
         printf("New connection... ip: %s, port: %d\n",
                inet_ntoa(clientaddr.sin_addr), ntohs(clientaddr.sin_port));
         server.HandleRequest();
-        printf("test");
     }
     return 0;
 }
