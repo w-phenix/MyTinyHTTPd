@@ -73,3 +73,8 @@ GetURL()->DiscardHeader()->ExecuteRequest()->ServeFile()/ExecuteCGI()
 ```
 g++ -o client Client.cpp SimpleClient.cpp
 ```
+再运行：
+
+```
+./client
+```
