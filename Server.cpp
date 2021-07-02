@@ -23,7 +23,7 @@ int main(){
         if(pthread_create(&newThread, NULL, AcceptRequest, &server) != 0){
             perror("thread_create");
         }
-        std::cout << "thread_id: " << newThread << std::endl << std::endl;
+        std::cout << std::endl;
     }
     return 0;
 }
